@@ -1,0 +1,41 @@
+body {
+    /*background-color:blueviolet;
+    background-image: url('back-ground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    background-color: white;
+    margin-left: 0px;
+}
+h1 {
+    color:blueviolet;
+}
+h4 {
+    background-color:coral;
+    border: 4px solid black;
+    margin-top: 0px;
+    
+}
+
+p {
+    color:chartreuse;
+    background-color: blue;
+    border: 4px solid black;
+    margin-top: 0px;
+}
+a {
+    text-decoration: none;
+}
+a:link{
+    color:blue;
+}
+a:hover{
+    color:crimson;
+    
+}
+a:visited{
+    color:chocolate;
+}
+a:active{
+    color:aqua;
+}
