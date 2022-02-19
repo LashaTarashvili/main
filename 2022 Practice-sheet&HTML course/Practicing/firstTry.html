@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" type="text/css" href="firstTry.css">
+            <meta charset="UTF-8">
+            <meta name="description" content="Survey form">
+            <meta name="author" content="Tara403" >
+            <meta name="keyword" content="bunch of keywords">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+        <body>
+            <h1 id="header">Employee Interests Survey Form</h1>
+            <p class="text">Enter your name: <input type="text"></p>
+            <p class="text">Enter your department: <input type="text"></p>
+            <p class="text">Tell us a little about yourself: <textarea></textarea></p>
+            <div class="div"> 
+                <label>Do you exercise at home?
+                <input type="radio" id="yes" name="exercise" value="Yes"/>
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="exercise" value="No"/>
+                <label for="no">No</label>
+                </label>
+            </div>
+            <div class="div">
+                <p>How do you like to read about your favorite topics?</p>
+                <input type="checkbox" id="books" value="Books"><label for="books">Books</label>
+                <input type="checkbox" id="online-resources" value="Online Resources"><label for="online-resources">Online Resources</label>
+                <input type="checkbox" id="phone-apps" value="Phone Apps"><label for="phone-apps">Phone Apps</label>
+                <input type="checkbox" id="magazines" value="Magazines"><label for="magazines">Magazines</label>
+            </div><br><br>
+            <div class="div">
+            <label for="options">What genre of movies do you like?</label>
+            <select name="options" id="opt">
+                <option value="comedy">Comedy</option>
+                <option value="Drama">Drama</option>
+                <option value="Action">Action</option>
+            </select>
+            </div><br><br>
+            <button type="submit" id="button">Submit Form</button>
+        </body>
+    </html>

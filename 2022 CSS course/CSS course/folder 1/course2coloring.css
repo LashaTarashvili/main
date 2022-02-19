@@ -1,0 +1,101 @@
+body {
+    /* background: rgba(204, 229, 255, 77); */
+    /* alpha საზღვრები: [0, 100] */
+    /* background: rgba(204, 229, 255, alpha goes here);  alpha is opacity */
+    /* background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmVM7BG0nyXw49n34MkyOGo1NGvDvC4fw8xQ&usqp=CAU"); */
+    /* or, background-image: url("..."); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 50px 100px; */
+    /* background-size: cover; */
+    background: linear-gradient(to bottom, rgb(75, 136, 187), rgba(54, 112, 160, 0.4));
+    /* background-size: contain; ეს თითქმის იგივეა რაც background-size: cover;*/
+}
+
+#title {
+    color: rgb(186, 133, 9);
+}
+.h3-text{
+color:rgb(200, 148, 30);
+}
+/* Linear Gradients */
+#the-box {
+    height:100px;
+     width: 70%;
+    background-color: greenyellow;
+    background: linear-gradient(to left, rgb(24, 199, 141), rgba(24, 24, 199, 0));
+    border: hotpink 5px solid;
+}
+#the-box-two {
+    height:100px;
+     width: 70%;
+    background-color: greenyellow;
+    background: linear-gradient(to bottom left, rgb(24, 199, 141), rgba(24, 24, 199, 0));
+    border: hotpink 5px solid;
+}
+#the-box-three {
+    height:100px;
+     width: 70%;
+    background-color: greenyellow;
+    background: linear-gradient(146deg , rgb(24, 199, 141), rgba(24, 24, 199, 0));
+    border: hotpink 5px solid;
+}
+/* Radial gradients */
+/* #the-box-four {
+    height:170px;
+     width: 70%;
+    background-color: greenyellow;
+    background: radial-gradient(circle, red 20%, blue 40%, yellow 55%);
+    border: hotpink 5px solid;
+    
+} */
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* Absolute units and relative units */
+
+/* absolute units: cms, inches, millimeters(ones that arent effected by anything around them) */
+/* pt is a little bit bigger than pixel (pt=point) */
+/* pc is another one, pc=12*pt  */
+
+/* Relative units are usually depended on smth. */
+/* მაგალითად პროცენტების იუნითი, 70%ს თუ დაწერ ნიშნავს რომ რა ოთხკუთხედშიცაა იმის ზომების 70%ს აიღებს ზომად */
+/* 2em აორმაგებს ფონტის ზომას, ანუ n*em ნიშნავს იმას, რომ n-ს რამდენსაც ჩავსვათ იმდენჯერ გაიზრდება ფონტი */
+
+
+/* vw (ანუ viewWidth) and vh (ანუ viewHeight) */
+
+/* vw is a 1% of the total view port|||  n*vw ნიშნავს რომ ვიუ პორტის n პროცენტის სიგრძეს ავიღებთ*/
+/* იგივე ვარიანტია vh-იც ზუსტად */
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* Text manipulation */
+ #text-manipulation {
+     /* text-decoration: none; */
+    text-decoration: underline; 
+     /* text-decoration: line-through; */
+     /* text-decoration: overline; */
+ }
+
+ #text-manipulation {
+    text-transform: capitalize; /* ანუ ყველა პირველი ასო დიდი იქნება */
+    /* text-transform: uppercase;  */
+    /* text-transform: lowercase; */
+ }
+
+ #text-manipulation {
+     /* text-align: center; */
+    text-align: justify; /* ნაწერების ყველა ხაზს ერთ სიგრძეს აძლევს */
+ }
+
+ /* Font size, Bolding and Style */
+  #text-manipulation {
+    /* font-size: 1.5em;  ცვლის ფონტის ზომას*/
+    /* font-weight: 700; ცვლის ფონტის სიმსხვილეს, სიმუქეს */
+    font-style: italic; 
+    /* font-style: oblique; */
+  }
+
+  /* Font families */
+  #text-manipulation {
+      font-family: sans-serif, "Times New Roman", monospace;
+  }

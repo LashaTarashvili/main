@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <!-- I copied this font from fonts.google.com -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+    <head>
+        <style>
+            .color-red{
+                color: red;
+            }
+            .color-green{
+                color: green;
+            }
+            .font-serif{
+                font-family: "Indie Flower";
+            }
+            .thin-green-border{
+                border-color: green;
+                border-width: 5px;
+                border-style: solid;
+                border-radius: 5px; 
+            }
+            .silver-background{
+                background-color: silver;
+            }
+            #cat-picture{
+                margin-left: 20px;  
+                box-shadow:10px 10px 15px rgba(3, 3, 3, 0.726);             
+            }
+            #rocket-picture{
+                margin-left: 20px;
+                box-shadow:10px 10px 15px rgba(3, 3, 3, 0.726);
+            }
+            p {
+                text-align: center;
+            }
+            h2{
+                text-align: center;
+                background-color: rgba(206, 203, 34, 0.5);
+                font-size: 27px;
+            }
+            #red-text{
+                opacity: 0.9;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="silver-background">
+        <h2 class="color-green font-serif">Rocket Photo App</h2>
+        <p><strong><u>Place Holder</u></strong></p>
+        <p class="color-green">Dead Link --><a href="#">Place Holder</a> (Created by using a hash(#) symbol)</p><br><br>
+        <img id="cat-picture"src="cat.jpg" alt="A rocket" class="thin-green-border" width="300 px" height="200px">
+        <br>
+        <p><em>Click here to go to</em><a href="https://www.youtube.com" target="_blank"> Youtube</a>. </p>
+        <br>
+        <a href="https://en.wikipedia.org/wiki/Rocket"><img id="rocket-picture"src="Rocket.jpg"alt="A rocket"class="thin-green-border"width="300 px" height="200px">
+            </a>
+        <ol>
+            <li>Place Holder</li>
+            <li>Place Holder</li>
+        </ol>
+        <ul>
+            <li>Place Holder</li>
+            <li>Place Holder</li>
+        </ul>
+        <p style="Color: red;"id="red-text">You can only choose one answer:</p>
+        <label for="18-">
+            <input id="18-" type="radio" value="18-" name="AdultOrNot" checked> 18-
+            <!-- checked attribute checks the radio button by default.-->
+        </label><br>
+        <label for="18+">
+            <input id="+18" type="radio" value="18 or 18+" name="AdultOrNot"> 18 or older
+        </label><br>
+        <p>You can choose multiple answers:</p>
+        <label for="sunny">
+            <input id="sunny" type="checkbox" name="adultOrNot2"> sunny
+        </label><br>
+        <label for="windy">
+            <input id="windy" type="checkbox" name="adultOrNot2"> windy
+        </label><br><br>
+        <p> Required: </p>
+        <form action="#">
+            <input type="text" placeholder="Type here..." required>
+            <button type="submit"> Submit </button>
+            <p>Clicking "Submit" will take u to a "Thank you, it's been submitted" page.</p>
+        </form>
+        </div>
+        <!-- Still dont know what attribute div is for!!!-->
+        <!-- End of the first level-->
+    </body>
+</html>
